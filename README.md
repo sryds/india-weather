@@ -7,7 +7,9 @@ The data contains metrics such as temperature, apparent temperature ("feels like
 Through exploratory analysis, this project aims to identify typical weather patterns across the country, by region and by individual city, as well as any changes in these patterns between 2000 and 2025. Using time-series analysis and machine-learning applications, this project will try to predict climate-related developments in the near future and identify specific factors influencing these changes. 
 
 The data for this project was retrieved from the following sources:
+
 https://www.kaggle.com/datasets/developerghost/climate-in-india-daily-weather-data-2000-2024/data
+
 https://www.nodc.noaa.gov/archive/arc0021/0002199/1.1/data/0-data/HTML/WMO-CODE/WMO4677.HTM
 
 Code written in Python and executed in Jupyter Notebook.
