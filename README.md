@@ -12,6 +12,7 @@ For the second part of the project, the weather data will be used for time-serie
 The data for this project was retrieved from the following sources:
 
 https://www.kaggle.com/datasets/developerghost/climate-in-india-daily-weather-data-2000-2024/data
+
 https://www.nodc.noaa.gov/archive/arc0021/0002199/1.1/data/0-data/HTML/WMO-CODE/WMO4677.HTM
 
 Code written in Python and executed in Jupyter Notebook.
