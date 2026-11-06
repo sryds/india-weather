@@ -89,10 +89,11 @@ india-weather/
 
 1. Clone the repository and install the dependencies:
    ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
+   pip install pandas==3.0.0 numpy==2.4.2 matplotlib==3.10.8 seaborn==0.13.2 jupyter
    ```
-2. Each notebook has a `path = r''` line near the top. Set it to your local `india-weather` folder (the repository root). Data is read from and written to `data/`, and charts are saved to `visualizations/`.
-3. The cleaned `.pkl` files are already included, so notebooks 2–5 can run without re-running notebook 1.
+   The `.pkl` files were written with pandas 3.0.0. Other pandas versions may not load them correctly.
+2. Open the notebooks from `scripts/`. `path` defaults to the repository root (`os.path.abspath('..')`), so you only need to change it if you run the notebooks from somewhere else. Data is read from and written to `data/`. Charts are saved to `visualizations/` with `save_fig`, which creates any missing folders.
+3. The cleaned `.pkl` files are already included, so you can run any notebook without running the earlier ones first. Notebooks 2–4 read `daily_weather_updated.pkl`, which notebook 1 writes. Notebook 5 reads `daily_weather_updated_2.pkl`, which notebook 4 writes. If you re-run notebook 1, re-run notebook 4 before notebook 5.
 
 ## Data
 
